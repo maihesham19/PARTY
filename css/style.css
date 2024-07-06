@@ -1,0 +1,88 @@
+header {
+    background-image: linear-gradient(rgba(214, 46, 51, .5)50%, rgba(214, 46, 51, .5)100%), url(../WhatsApp\ Image\ 2024-07-04\ at\ 14.46.50_b378c169.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidemenu {
+    z-index: 9999;
+
+    .menulist {
+        display: none;
+
+        .close {
+            cursor: pointer;
+        }
+
+        a {
+            padding: 0px 42px 36px 1px;
+            font-size: 25px;
+            color: #818181;
+            transition: 0.5s;
+            display: block;
+            color: white;
+        }
+
+        a:hover {
+            color: #8a0606;
+        }
+    }
+
+    .menubar {
+        cursor: pointer;
+    }
+}
+
+.info {
+    cursor: pointer;
+    background-color: rgba(214, 46, 51, 0.6);
+
+}
+
+.counter {
+    background-image: linear-gradient(rgba(231, 25, 25, 0.463)50%, rgba(231, 25, 25, 0.463)100%), url(../WhatsApp\ Image\ 2024-07-04\ at\ 14.48.35_be8ca9da.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+
+    .row {
+        margin-inline: 20px;
+    }
+
+    .box {
+        border: 3px solid #FFF;
+        width: 20%;
+    }
+
+}
+
+.icons {
+    i {
+        margin-inline: 5px;
+        border: 1px solid #999;
+        width: 50px;
+        height: 50px;
+        place-content: center;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    i:hover {
+        color: #fff;
+        background-color: red;
+        border: 1px solid red;
+    }
+
+}
+
+form {
+    textarea {
+        height: 200px;
+    }
+}
